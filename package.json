@@ -1,0 +1,26 @@
+{
+  "name": "@vserv/cli",
+  "version": "0.0.1",
+  "description": "A cli for helping users to build repositories for private servers in a microservice architecture",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vserv-tech/vserv-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "vserv",
+    "virtual-server",
+    "server-management",
+    "microservice"
+  ],
+  "author": "vserv.tech <packages@vserv.tech>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vserv-tech/vserv-cli/issues"
+  },
+  "homepage": "https://github.com/vserv-tech/vserv-cli#readme"
+}
