@@ -2,9 +2,12 @@
   "name": "@vserv/cli",
   "version": "0.0.1",
   "description": "A cli for helping users to build repositories for private servers in a microservice architecture",
-  "main": " ",
+  "main": "./lib/index.js",
+  "bin": {
+    "vserv": "./lib/index.js"
+  },
   "scripts": {
-    "test": " "
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,18 @@
   "bugs": {
     "url": "https://github.com/vserv-tech/vserv-cli/issues"
   },
-  "homepage": "https://github.com/vserv-tech/vserv-cli#readme"
+  "homepage": "https://github.com/vserv-tech/vserv-cli#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "clear": "^0.1.0",
+    "commander": "^5.1.0",
+    "figlet": "^1.4.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  }
 }
